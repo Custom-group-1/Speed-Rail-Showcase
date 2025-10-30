@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Speed Rail</title>
+<meta name="description" content="Speed Rail – Ứng dụng mô phỏng lượt đi nhân vật trong Honkai: Star Rail. Tính toán SPD/AV, mô phỏng tối đa 4 nhân vật, hiệu ứng & dữ liệu kẻ địch." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="#home" aria-label="Trang chủ">Speed Rail</a>
+
+<button class="nav-toggle" aria-label="Mở menu">
+  ☰
+</button>
+
+<nav class="nav-links" aria-label="Điều hướng">
+<a href="#painpoints">Pain Point</a>
+<a href="#solution">Giải pháp</a>
+<a href="#features">Tính năng</a>
+<a href="#screens">Giao diện</a>
+<a href="#team">Nhóm</a>
+</nav>
+<a class="btn btn-outline" target="_blank" href="https://github.com/Custom-group-1/Speed-Rail">GitHub</a>
+</div>
+</header>
+
+
+<main id="home">
+<!-- Hero -->
+<section class="hero">
+<div class="container hero-inner">
+<h1>Speed Rail – Mô phỏng lượt đi trong Honkai: Star Rail</h1>
+<p>Speed Rail giúp người chơi dự đoán và tối ưu thứ tự lượt đi dựa trên chỉ số <strong>SPD</strong> và <strong>Action Value (AV)</strong>, hỗ trợ mô phỏng tối đa 4 nhân vật cùng các hiệu ứng thực chiến.</p>
+<div class="cta">
+<a class="btn btn-primary" href="#screens">Xem giao diện</a>
+<a class="btn btn-ghost" href="#features">Khám phá tính năng</a>
+</div>
+</div>
+<div class="ribbon" aria-hidden="true"></div>
+</section>
+
+
+<!-- Pain Points -->
+<section id="painpoints" class="section">
+<div class="container">
+<h2 class="section-title">Vấn đề người chơi gặp phải</h2>
+<div class="grid features">
+<article class="card hover-lift">
+<h3>Khó dự đoán lượt đi</h3>
+<p>Khi có nhiều buff/debuff ảnh hưởng SPD, người chơi khó ước lượng chính xác thứ tự lượt, dẫn đến sắp xếp đội hình chưa tối ưu.</p>
+</article>
+<article class="card hover-lift">
+<h3>Thiếu công cụ trực quan</h3>
+<p>Phần lớn chỉ tính tay hoặc dựa vào kinh nghiệm; chưa có công cụ mô phỏng minh hoạ được timeline lượt đi một cách rõ ràng.</p>
+</article>
+<article class="card hover-lift">
+<h3>Dữ liệu thay đổi theo mùa</h3>
+<p>Chỉ số kẻ địch, hiệu ứng và cơ chế có thể cập nhật theo mùa/phiên bản; người chơi khó theo dõi và áp dụng vào trận thực tế.</p>
+</article>
+</div>
+</div>
+</section>
+
+
+<!-- Solution -->
+<section id="solution" class="section">
+<div class="container">
+<h2 class="section-title">Giải pháp của Speed Rail</h2>
+<div class="grid features">
+<article class="card hover-lift">
+<h3>Mô phỏng dựa trên SPD/AV</h3>
+<p>Tự động tính AV và dựng timeline lượt đi giúp bạn dự đoán chính xác thứ tự hành động.</p>
+</article>
+<article class="card hover-lift">
+<h3>Mô phỏng tối đa 4 nhân vật</h3>
+<p>Dễ dàng so sánh hiệu quả đội hình, xem tác động của buff/debuff hoặc điều chỉnh SPD để tối ưu lượt.</p>
+</article>
+<article class="card hover-lift">
+<h3>Dữ liệu & hiệu ứng thực chiến</h3>
+<p>Tích hợp cơ sở dữ liệu kẻ địch và các hiệu ứng chiến đấu; cập nhật theo mùa để phản ánh điều kiện thực tế.</p>
+</article>
+</div>
+</div>
+</section>
+
+
+<!-- Features -->
+<section id="features" class="section">
+<div class="container">
+<h2 class="section-title">Tính năng nổi bật</h2>
+<div class="grid features">
+<article class="card hover-lift">
+<h3>Tính AV tự động</h3>
+<p>Nhập SPD và để hệ thống tính toán AV/timeline, giảm sai số khi ước lượng thủ công.</p>
+</article>
+<article class="card hover-lift">
+<h3>Timeline trực quan</h3>
+<p>Hiển thị lượt đi trên trục thời gian giúp quan sát, so sánh và điều chỉnh cấu hình nhanh.</p>
+</article>
+<article class="card hover-lift">
+<h3>Hiệu ứng & kẻ địch</h3>
+<p>Áp dụng buff/debuff, tùy chọn cycle/wave, tham chiếu dữ liệu kẻ địch theo từng mùa.</p>
+</article>
+<article class="card hover-lift">
+<h3>Web & Mobile App</h3>
+<p>Chạy tốt trên trình duyệt máy tính và thiết bị di động; triển khai, truy cập thuận tiện.</p>
+</article>
+</div>
+</div>
+</section>
+
+<!-- Screens (placeholders) -->
+<section id="screens" class="section">
+<div class="container">
+<h2 class="section-title">Giao diện</h2>
+<p class="subtle">Một số hình ảnh giao diện</p>
+
+<div class="grid screens">
+<figure class="phone-mock">
+  <div class="phone-frame">
+    <img src="assets/signin.png" alt="Màn hình đăng nhập Speed Rail">
+  </div>
+  <figcaption>Màn hình đăng nhập</figcaption>
+</figure>
+
+<figure class="phone-mock">
+  <div class="phone-frame">
+    <img src="assets/main.png" alt="Màn hình chính Speed Rail">
+  </div>
+  <figcaption>Màn hình chính</figcaption>
+</figure>
+<figure class="phone-mock">
+  <div class="phone-frame">
+    <img src="assets/lightcone.png" alt="Màn hình chọn lightcone Speed Rail">
+  </div>
+  <figcaption>Màn hình chọn thánh di vật</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+
+<!-- Team -->
+<section id="team" class="section">
+<div class="container">
+<h2 class="section-title">Nhóm phát triển</h2>
+<div class="grid team">
+
+<div class="member hover-lift">
+<!-- <div class="avatar avatar-img">
+  <img src="assets/kiet.jpg" alt="Tuấn Kiệt">
+</div> -->
+<div><strong>Tuấn Kiệt</strong><br><small>2252392</small></div>
+</div>
+
+<div class="member hover-lift">
+<!-- <div class="avatar avatar-img">
+  <img src="assets/dat.jpg" alt="Tuấn Đạt">
+</div> -->
+<div><strong>Tuấn Đạt</strong><br><small>2152514</small></div>
+</div>
+
+<div class="member hover-lift">
+<!-- <div class="avatar avatar-img">
+  <img src="assets/nguyen.jpg" alt="Khôi Nguyên">
+</div> -->
+<div><strong>Khôi Nguyên</strong><br><small>2</small></div>
+</div>
+<div class="member hover-lift">
+<!-- <div class="avatar avatar-img">
+  <img src="assets/vinh.jpg" alt="Hữu Vinh">
+</div> -->
+<div><strong>Hữu Vinh</strong><br><small>2153976</small></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-box card hover-lift">
+      <h2 class="section-title" style="text-align:left; margin-bottom:10px;">Liên hệ</h2>
+      <p class="subtle" style="text-align:left; margin-bottom:14px;">
+        Nếu bạn muốn báo lỗi, đề xuất tính năng mới hoặc dùng Speed Rail cho đồ án, hãy liên hệ nhóm.
+      </p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:kiet.trantuan2004@hcmut.edu.vn">kiet.trantuan2004@hcmut.edu.vn</a></li>
+        <li><strong>Linkedin:</strong> <a target="_blank" href="https://www.linkedin.com/in/ki%E1%BB%87t-tr%E1%BA%A7n-7278a935a/">Kiệt Trần</a></li>
+        <li><strong>Phone:</strong> 0707040551 </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+<div class="container">
+<div class="links">
+<a target="_blank" href="https://github.com/Custom-group-1/Speed-Rail">Repo GitHub</a>
+<span> </span>
+<a target="_blank" href="https://github.com/Custom-group-1/Speed-Rail/wiki">Tài liệu (Wiki)</a>
+</div>
+<div class="sep"></div>
+<small>Speed Rail © 2025 · Custom Group 01 · Hosted on GitHub Pages</small>
+</div>
+</footer>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+</script>
+</body>
+</html>
