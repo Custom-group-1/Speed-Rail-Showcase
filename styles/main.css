@@ -472,6 +472,69 @@ a.btn { text-decoration: none; }
     width: 190px;
   }
 }
+/* ========== ROADMAP SECTION ========== */
+.roadmap {
+  padding: 0;
+  overflow-x: auto;
+}
+
+.roadmap-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.roadmap-table th,
+.roadmap-table td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.roadmap-table th {
+  color: var(--blue-1);
+  font-weight: 700;
+  font-size: 15px;
+  background: rgba(19, 34, 53, 0.6);
+}
+
+.roadmap-table td {
+  color: var(--text);
+  font-size: 14.5px;
+}
+
+.roadmap-table tr:hover td {
+  background: rgba(166, 138, 209, 0.05);
+  transition: background 0.25s ease;
+}
+/* ========== TECH STACK SECTION ========== */
+.tech-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tech-list li {
+  color: #d6e2ee;
+  font-size: 14.5px;
+}
+
+.tech-list a {
+  color: var(--purple);
+  text-decoration: none;
+}
+.tech-list a:hover {
+  text-decoration: underline;
+}
+
 /* ========== CONTACT SECTION ========== */
 /* Liên hệ ngắn gọn */
 .contact-box {
